@@ -6,7 +6,6 @@ module.exports = function( api ) {
 			'@wordpress/babel-preset-default',
 		],
 		plugins: [
-			'@babel/plugin-proposal-class-properties',
 		],
 		env: {
 			production: {
