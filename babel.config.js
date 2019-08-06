@@ -7,17 +7,5 @@ module.exports = function( api ) {
 		],
 		plugins: [
 		],
-		env: {
-			production: {
-				plugins: [
-					[
-						'@wordpress/babel-plugin-makepot',
-						{
-							output: 'languages/ee-js.pot',
-						},
-					],
-				],
-			},
-		},
 	};
 };

@@ -6,11 +6,6 @@ import { shallow } from 'enzyme';
 /**
  * Internal dependencies
  */
-import { __ } from '@wordpress/i18n';
-
-/**
- * Internal dependencies
- */
 import { AvatarImage } from '../avatar';
 
 describe( 'AvatarImage()', () => {
@@ -19,7 +14,7 @@ describe( 'AvatarImage()', () => {
 		avatarClass: 'contact',
 		avatarHeight: 32,
 		avatarWidth: 32,
-		avatarAltText: __( 'contact avatar', 'event_espresso' ),
+		avatarAltText: 'contact avatar',
 	};
 
 
