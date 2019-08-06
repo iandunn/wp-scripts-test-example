@@ -5,7 +5,5 @@ module.exports = function( api ) {
 		presets: [
 			'@wordpress/babel-preset-default',
 		],
-		plugins: [
-		],
 	};
 };
